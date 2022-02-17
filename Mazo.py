@@ -19,5 +19,7 @@ class Mazo(Mano):
             for mano in manos:
                 if self.cartas:
                     carta_actual = self.cartas[0]
-                    self.give
+                    self.dar(carta_actual, mano)
+                else:
+                    print("No se puede seguir repartiendo, no hay mas cartas")
                     

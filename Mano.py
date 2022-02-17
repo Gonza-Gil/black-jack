@@ -19,3 +19,7 @@ class Mano(object):
         
     def add(self, carta):
         self.cartas.append(carta)
+        
+    def dar(self, carta, otra_mano):
+        self.cartas.remove(carta)
+        otra_mano.add(carta)
