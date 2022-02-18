@@ -25,10 +25,19 @@ class JuegoBJ(object):
     
     def __mas_cartas(self, jugador):
         while not jugador.se_paso() and jugador.is_pidiendo():
-            self.mazo.repartir([jugador])
-            print(jugador)
-            if jugador.se_paso():
-                jugador.perder()
+            if len(self.mazo.cartas) > 0:
+                print(f'Cartas restantes: {len(self.mazo.cartas)}')
+                self.mazo.repartir([jugador])
+                print(jugador)
+                if jugador.se_paso():
+                    jugador.perder()
+            else:
+                self.mazo.armar()
+                self.mazo.mezclar()
+                self.mazo.repartir([jugador])
+                print(jugador)
+                if jugador.se_paso():
+                    jugador.perder()
                 
     def jugar(self):
         # Reparte las primeras dos cartas
