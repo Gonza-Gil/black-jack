@@ -7,7 +7,7 @@ class Mano(object):
         
     def __str__(self):
         cadena = ""
-        if self.cartascartas:
+        if self.cartas:
             for c in self.cartas:
                 cadena += str(c) + " "
         else:
