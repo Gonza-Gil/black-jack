@@ -35,3 +35,7 @@ Luego de tener las clases base, implementé las clases necesarias para poder jug
 ## Diagrama de clases
 
 ![Diagrama de clases](BlackJack.png)
+
+## Links externos
+
+* [BlackJack](https://es.wikipedia.org/wiki/Blackjack)
