@@ -6,6 +6,7 @@ from Mano import Mano
 
 class Mazo(Mano):
     
+    # Armar llena inicialmente el mazo con todas las cartas
     def armar(self):
         for palo in Carta.PALOS:
             for rango in Carta.RANGOS:
@@ -14,6 +15,7 @@ class Mazo(Mano):
     def mezclar(self):
         random.shuffle(self.cartas)
         
+    # Repartir recibe como parametros un arreglo del tipo Mano, y un entero que indica la cantidad de cartas a repartir
     def repartir(self, manos, cant_ronda = 1):
         for ronda in range(cant_ronda):
             for mano in manos:
