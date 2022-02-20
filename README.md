@@ -30,3 +30,8 @@ Como comportamiento tiene la implementación del metodo __armar__ que permite ca
 ## Implementación: clases para black-jack
 
 Luego de tener las clases base, implementé las clases necesarias para poder jugar: [CartaBJ](CartaBJ.py), [ManoBJ](ManoBJ), [MazoBJ](MazoBJ), [JugadorBJ](JugadorBJ), [CuprierBJ](CuprierBJ) y [JuegoBJ](JuegoBJ)
+
+
+## Diagrama de clases
+
+![Diagrama de clases](BlackJack.png)
