@@ -1,6 +1,6 @@
 <h1> Black Jack </h1>
 
-Juego de cartas "Black Jack" implementado en Python con el fin de aprender POO.<br>
+Juego de cartas "Black Jack" implementado con el fin de aprender POO en Python.<br>
 
 ## Jugar
 _Para ejecutarlo correr en consola:_<br>
